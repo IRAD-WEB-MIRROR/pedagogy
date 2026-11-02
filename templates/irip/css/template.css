@@ -1,0 +1,30 @@
+body{margin:0;background:#e9ece4;font:13px/1.55 Arial,Helvetica,sans-serif;color:#2b2b2b}
+a{color:#2f6b1f}a:hover{color:#a8541b}
+#pg{max-width:1000px;margin:0 auto;background:#fff;border-left:1px solid #cfd5c6;border-right:1px solid #cfd5c6}
+#hd{background:linear-gradient(#4f7d3a,#2f5a22);color:#fff;padding:16px 20px 14px;display:flex;align-items:center;gap:16px}
+#hd img{width:70px;height:70px;flex:none}
+#hd .a{font:bold 22px Georgia,serif;line-height:1.15}
+#hd .b{font-size:12px;color:#d6e8c8;margin-top:4px}
+#nv{background:#24461a;border-top:1px solid #6c9a55;overflow:hidden}
+#nv a{float:left;color:#e7f2df;text-decoration:none;padding:8px 14px;font-weight:bold;font-size:12px}
+#nv a:hover,#nv a.on{background:#a8541b;color:#fff}
+#bc{background:#f3f5ef;border-bottom:1px solid #dde3d4;padding:5px 20px;font-size:11px;color:#777}
+#bd{display:flex;gap:20px;padding:16px 20px 24px}
+#mainc{flex:1;min-width:0}
+#side{width:230px;flex:none}
+.mod{border:1px solid #d7dccf;margin:0 0 14px}
+.mod h3{margin:0;background:#eef2e8;border-bottom:2px solid #a8541b;padding:5px 8px;font-size:12px;color:#2f5a22;text-transform:uppercase}
+.mod div{padding:7px 9px;font-size:12px}
+h1{font:normal 23px Georgia,serif;color:#2f5a22;margin:0 0 12px;border-bottom:1px solid #dde3d4;padding-bottom:6px}
+h2{font:bold 15px Arial;color:#a8541b;margin:18px 0 6px}
+.item{border-bottom:1px solid #eee;padding:8px 0}.item .dt{font-size:11px;color:#999}
+table.tb{border-collapse:collapse;width:100%;margin:6px 0 14px;font-size:12px}
+table.tb th{background:#4f7d3a;color:#fff;padding:5px 6px;text-align:left}
+table.tb td{border:1px solid #d7dccf;padding:5px 6px;vertical-align:top}
+table.tb tr:nth-child(even) td{background:#f6f8f2}
+.file{padding-left:20px;background:no-repeat 0 2px url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='16'><path d='M1 1h8l4 4v10H1z' fill='%23fff' stroke='%23a8541b'/><path d='M3 8h8M3 11h8' stroke='%23a8541b'/></svg>")}
+.hits{font-size:11px;color:#999}
+#ft{background:#2f5a22;color:#cfe3c2;padding:12px 20px;font-size:11px}#ft a{color:#fff}
+.doc{font-family:"Times New Roman",serif;font-size:15px;max-width:720px}
+.doc table.tb{font-family:Arial;font-size:12px}
+@media (max-width:760px){#bd{flex-direction:column}#side{width:auto}#hd .a{font-size:18px}#nv a{padding:7px 9px}}
